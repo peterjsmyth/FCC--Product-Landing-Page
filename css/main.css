@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poiret+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --clr-bg-dk:  #1d1d1d;
+  --clr-bg-lt:  #fcf9e1f6;
+  --clr-dk: #fcf9e1f6;
+  --clr-lt: #1d1d1d;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Poiret One', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+}
+
+.link {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  background-color: var(--clr-bg-lt);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 2rem auto;
+  width: 85vw;
+  position: relative;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.hamburger {
+  font-size: 2.5rem;
+}
+
+.navbar {
+  position: absolute;
+  list-style: none;
+  left: 0px;
+  top: 6rem;
+}
+
+.navitem {
+  width: 85vw;
+  display: inline-block;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.navlink {
+  font-size: 3rem;
+}
+/*# sourceMappingURL=main.css.map */
