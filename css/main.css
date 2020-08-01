@@ -22,17 +22,22 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lobster', cursive;
 }
 
-.link {
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 .hide {
   display: none;
 }
 
 body {
-  background-color: var(--clr-bg-lt);
+  background-color: white;
+}
+
+.wrapper {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header {
@@ -47,7 +52,7 @@ body {
           justify-content: space-between;
   margin: 2rem auto;
   width: 85vw;
-  position: relative;
+  position: fixed;
 }
 
 .title {
@@ -72,7 +77,23 @@ body {
   text-align: center;
 }
 
+.navitem:hover {
+  color: lawngreen;
+}
+
 .navlink {
   font-size: 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.navlink:hover {
+  color: lawngreen;
+}
+
+.main__bgimg {
+  width: 100vw;
+  opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */

@@ -21,17 +21,25 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Lobster', cursive;
 }
 
-.link {
-    text-decoration: none;
-    text-transform: uppercase;
-}
+// .link {
+//     text-decoration: none;
+//     text-transform: uppercase;
+//     color: white;
+// }
 
 .hide {
     display: none;
 }
 
 body {
-    background-color: var(--clr-bg-lt);
+    // background-color: var(--clr-bg-lt);
+    background-color: white;
+}
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 .header {
@@ -40,7 +48,7 @@ body {
     justify-content: space-between;
     margin: 2rem auto;
     width: 85vw;
-    position: relative;
+    position: fixed;
 }
 
 .title {
@@ -67,8 +75,25 @@ body {
     display: inline-block;
     margin: 2rem auto;
     text-align: center;
+    &:hover {
+        color: lawngreen;
+    }
 }
 
 .navlink {
     font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    &:hover {
+        color: lawngreen;
+    }
 }
+
+.main {
+    &__bgimg {
+        width: 100vw;
+        opacity: 1;
+    }
+}
+
